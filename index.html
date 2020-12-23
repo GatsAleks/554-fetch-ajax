@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajax/Fetch</title>
+    <link rel="stylesheet" href="css/quiz.css">
 </head>
 <body>
     <div class="timestamp"></div>
@@ -47,8 +48,25 @@
         </form>
     </section>
 
+    <section>
+        <h2>Quiz</h2>
+        <div>
+            <label>
+                Question: <input type="text" disabled class="question">
+            </label>
+            <br>
+            <label>
+                Your answer: <input type="text" class="answer">
+            </label>
+            <button class="check">Check</button>
+            <button class="next">Next</button>
+            <p class="result"></p>
+        </div>
+    </section>
+
     <script src="js/index.js"></script>
     <script src="js/currency.js"></script>
     <script src="js/login.js"></script>
+    <script src="js/quiz.js"></script>
 </body>
 </html>
